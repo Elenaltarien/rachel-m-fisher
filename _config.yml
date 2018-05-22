@@ -3,7 +3,8 @@ title: Rachel M Fisher
 email: fisher.rachel.m@gmail.com
 author: Rachel M Fisher
 description:
-url: www.rachelmfisher.com
+baseurl: /
+url: http://elenaltarien.github.io
 
 # Build settings
 permalink: :title/
