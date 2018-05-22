@@ -1,0 +1,11 @@
+#Site settings
+title: Rachel M Fisher
+email: fisher.rachel.m@gmail.com
+author: Rachel M Fisher
+description:
+url: www.rachelmfisher.com
+
+# Build settings
+permalink: :title/
+sass:
+  sass_dir: css
