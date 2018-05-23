@@ -4,21 +4,32 @@
 @import 'custom/variables';
 @import 'bootstrap/bootstrap';
 @import 'custom/includes/nav';
+@import 'custom/includes/social_links';
+@import 'custom/includes/pager';
+@import 'custom/includes/post';
 
 body {
     font-family: $font-family-serif;
     .primary-color {
         color: $primary;
     }
+
     .accent-color {
         color: $accent;
     }
+
     p {
         font-size: 1.5em;
     }
-    h1 {
-        font-size: 3em;
-        padding-bottom: 20px;
-        font-family: $font-family-sans-serif;
+
+    h1, h2, h3, h4, h5, h6 {
+      font-family: $font-family-sans-serif;
     }
+
+    a {
+      text-decoration: none;
+      &:hover { text-decoration: none;
+      }
+    }
+    
 }

@@ -1,0 +1,13 @@
+#pager {
+  padding-top: 20px;
+
+  a.btn {
+    background-color: $accent;
+    border: $accent;
+    font-family: $font-family-sans-serif;
+  }
+
+  a.btn.disabled {
+    color: #000;
+  }
+}

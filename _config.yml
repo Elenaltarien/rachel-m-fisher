@@ -3,10 +3,19 @@ title: Rachel M Fisher
 email: fisher.rachel.m@gmail.com
 author: Rachel M Fisher
 description:
-baseurl: /
+baseurl: 
 url: http://elenaltarien.github.io
 
 # Build settings
 permalink: :title/
 sass:
   sass_dir: css
+
+# Social icons
+show_social_icons: true
+github_username: Elenaltarien
+twitter_username: RachelMFisher
+
+# Plugins
+plugins: [jekyll-paginate]
+paginate: 3
