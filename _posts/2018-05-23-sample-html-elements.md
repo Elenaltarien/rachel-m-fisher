@@ -10,20 +10,22 @@ summary: We'll use this post to work out what we need to do to style an individu
 
 A <a href="#" target="_blank">link</a>
 
+Some random preformatted text will be here `enter`
+
 ##### Terminal
-```bash
+``` bash
 A terminal command
 ```
 
 ##### some html
-```html
+``` html
 <div class="container py5">
   <p>Lorem ipsum</p>
 </div>
 ```
 
 ##### some javascript
-```js
+``` js
 $(document).ready(function() {
   console.log('hello');
 });
@@ -31,7 +33,7 @@ $(document).ready(function() {
 
 A code section without any header
 
-```html
+``` html
 <span>A small HTML snippet</span>
 ```
 

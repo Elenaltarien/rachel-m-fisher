@@ -1,9 +1,23 @@
+// Custom color adjustments to the code 
+
+code {
+  padding: .1em .25em;
+  background-color: $code-background;
+  color: $accent;
+  border: 1px solid $code-border;
+}
+
 /*
  * GitHub style for Pygments syntax highlighter, for use with Jekyll
  * Courtesy of GitHub.com
  */
 
- .highlight pre, pre, .highlight .hll { background-color: #f8f8f8; border: 1px solid #ccc; padding: 6px 10px; border-radius: 3px; }
+/* 
+ * Adjustments to original pulled from Github
+ * .hightlight pre, pre, .highlight .hll
+ */
+
+ .highlight pre, pre, .highlight .hll { background-color: $code-background; border: 1px solid $code-border; padding: 15px 10px; border-radius: 3px; }
  .highlight .c { color: #999988; font-style: italic; }
  .highlight .err { color: #a61717; background-color: #e3d2d2; }
  .highlight .k { font-weight: bold; }

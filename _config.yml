@@ -12,7 +12,7 @@ permalink: :title/
 sass:
   sass_dir: css
 markdown: kramdown
-highlighter: rogue
+highlighter: rouge
 
 # Social icons
 show_social_icons: true
