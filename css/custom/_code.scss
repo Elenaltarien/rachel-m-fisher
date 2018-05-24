@@ -7,6 +7,11 @@ code {
   border: 1px solid $code-border;
 }
 
+pre.highlight > code {
+  border: none;
+}
+
+
 /*
  * GitHub style for Pygments syntax highlighter, for use with Jekyll
  * Courtesy of GitHub.com
