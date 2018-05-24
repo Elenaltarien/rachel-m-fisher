@@ -23,18 +23,18 @@ A terminal command
 ```
 
 ##### some javascript
-```javascript
+```js
 $(document).ready(function() {
   console.log('hello');
 });
 ```
 
 A code section without any header
-<div class="no-select-button">
+
 ```html
 <span>A small HTML snippet</span>
 ```
-</div>
+
 
 An image
 <img src="https://jekyllrb.com/img/logo-2x.png" class="img-fluid"/>
