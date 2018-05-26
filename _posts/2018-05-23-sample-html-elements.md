@@ -3,6 +3,7 @@ layout: post
 title: Sample HTML Elements
 summary: We'll use this post to work out what we need to do to style an individual posts... let's get going!
 ---
+Random text before the headings. Just want to test out the space between the date and start of text. 
 # Heading 1
 ## Heading 2
 ### Heading 3
