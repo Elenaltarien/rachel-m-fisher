@@ -8,7 +8,7 @@
           <span id="tags">
             {% if page.tags %}  
             {% for tag in page.tags %}
-              <i class="fas fa-tags accent-color"></i> <a href="{{ site.baseurl }}tags/{{ tag | slugify }}" class="accent-color">{{ tag }}</a>
+              <i class="fas fa-tags accent-color"></i> <a href="tags/{{ tag | slugify }}/" class="accent-color">{{ tag }}</a>
             {% endfor %}
             {% endif %}
           </span>
