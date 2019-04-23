@@ -1,12 +1,11 @@
 ---
 layout: 
-title:
-summary:
+title: 
+summary: 
 tags: >
   #100DaysOfCode
 ---
 
-### Day 1: May 22, Tuesday
 
 **Today's Progress**: Started building personal blog in Jekyll. Figured out Bootstrap 4 integration with https://experimentingwithcode.com/creating-a-jekyll-blog-with-bootstrap-4-and-sass-part-1/index.html
 
