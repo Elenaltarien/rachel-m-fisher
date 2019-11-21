@@ -1,12 +1,12 @@
 nav {
     border-top: 2px solid $primary;
     font-family: $font-family-sans-serif;
-    font-size: 1.2em;
+    font-size: 18px;
     .menu-toggle {
         color: $primary;
     }
     .navbar-brand {
-        font-size: 1.2em;
+        font-size: 20px;
     }
     .navbar-nav {
         li {
@@ -15,6 +15,12 @@ nav {
     }
     .icons { 
         padding-right: 10px;
+    }
+
+    .logo {
+      height: 40px;
+      width: 40px;
+      margin-right: 10px;
     }
     a {
         color: #000;

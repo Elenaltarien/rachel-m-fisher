@@ -10,9 +10,17 @@
 @import 'custom/code';
 @import 'custom/includes/page';
 @import 'custom/includes/disqus';
+@import 'custom/includes/intro';
+
+
+@media (min-width: 1200px) {
+  .container{
+      max-width: 800px;
+  }
+}
 
 body {
-    font-family: $font-family-serif;
+    font-family: $font-family-sans-serif;
     .primary-color {
         color: $primary;
     }
@@ -26,11 +34,11 @@ body {
     }
 
     p {
-        font-size: 1.5em;
+        font-size: 18px;
     }
 
     h1, h2, h3, h4, h5, h6 {
-      font-family: $font-family-sans-serif;
+      font-family: $font-family-headings;
     }
 
     a {

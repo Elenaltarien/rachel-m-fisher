@@ -4,6 +4,9 @@ $accent: #26a69a; //teal; custom variable
 $code-background: #FFFFD6; //light yellow; custom variable
 $code-border: #FFF9C4; //light yellow; custom variable 
 
+@import url('https://fonts.googleapis.com/css?family=Oswald|Roboto|Shadows+Into+Light+Two&display=swap');
+
 //Fonts
-$font-family-sans-serif: 'Lato', sans-serif; //Bootstrap variable
-$font-family-serif: 'Fauna One', serif; //Bootstrap variable
+$font-family-sans-serif: 'Roboto', sans-serif; //Bootstrap variable
+$font-family-headings: 'Oswald', serif; //Bootstrap variable
+$font-family-handwriting: 'Shadows Into Light Two', serif; //custom variable

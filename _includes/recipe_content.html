@@ -1,0 +1,72 @@
+  <!-- Code for recipe content based on https://www.dominicsayers.com/recipe_markup/ -->
+
+<div id="post" class="container">
+
+
+    <div class="row">
+      <div class="col">
+        
+        <h1>{{ page.title }}</h1>
+        <p id="date" class="lead text-secondary">
+            {{ page.date | date: "%b %-d, %Y" }}
+            <span id="tags">
+              {% if page.tags %}  
+              {% for tag in page.tags %}
+                <i class="fas fa-tags accent-color"></i> <a href="../tags/{{ tag | slugify }}/" class="accent-color">{{ tag }}</a>
+              {% endfor %}
+              {% endif %}
+            </span>
+        </p>
+        
+       
+        <article itemtype="http://schema.org/Recipe">
+
+          {% if page.prepmins or page.cookmins %}
+          {% if page.prepmins %}<p><i class="fas fa-clock"></i> <strong>Preparation time:</strong> {{ page.prepmins }} mins<span itemprop="prepTime" class="invisible">PT{{ page.prepmins }}M</span></p>{% endif %}
+  {% if page.cookmins %}<p><i class="fas fa-stopwatch"></i> <strong>Cooking time:</strong> {{ page.cookmins }} mins<span itemprop="cookTime" class="invisible">PT{{ page.cookmins }}M</span></p>{% endif %}
+</dl>
+{% endif %}
+
+{{ content }}
+
+<!-- ingredients -->
+<div>
+  <h2>Ingredients</h2>
+   <ul>
+      {% for ingredient in page.ingredients %}
+      <li itemprop="ingredients">{{ ingredient[1] }} {{ ingredient[0] }}</li>
+      {% endfor %}
+   </ul>
+</div>
+<!-- ingredients -->
+
+<!-- instructions -->
+<div itemprop="recipeInstructions">
+  <h2>Instructions</h2>
+  <ol>
+    <li>{{ page.instructions | join: '</li> <li>' }}</li>
+  </ol>
+</div>
+<!-- instructions -->
+</div>
+
+<p class="invisible" itemprop="description">{{ page.excerpt | strip_html | strip_newlines | truncate: 200 }}</p>
+<p class="invisible" itemprop="nutrition" itemscope itemtype="http://schema.org/NutritionInformation"><span itemprop="calories">{{ page.calories | default: 2 }}</span></p>
+<p class="invisible" itemprop="aggregateRating" itemscope itemtype="http://schema.org/AggregateRating"><span itemprop="ratingValue">5</span><span itemprop="reviewCount">1</span></p>
+
+        </article>
+        
+      
+  
+
+
+
+
+
+
+        
+
+
+</div>  
+</div>
+</div>
