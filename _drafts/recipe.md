@@ -8,7 +8,7 @@ prepmins:
 cookmins: 
 layout: recipe
 title: 
-date: 
+date: 2019-11-10
 image: 
 thumbnail: 
 tags:
