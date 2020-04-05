@@ -2,7 +2,7 @@
 layout: post
 title: DIY Loom Knitted Gaming Headphone Covers
 summary: Has the foam earpiece covering of your favorite gaming headset fallen apart? Well, here's a pattern to loom knit some new covers! They are super comfortable too.
-tag: knitting
+tags: [knitting, DIY]
 ---
 > Learn to make your own super comfy loom knitted gaming headset covers!
 

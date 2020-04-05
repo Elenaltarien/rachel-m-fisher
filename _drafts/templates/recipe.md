@@ -13,7 +13,7 @@ image:
 thumbnail: 
 tags:
   - recipe
-  - list other tags
+  - 
 ---
 
 Recipe info

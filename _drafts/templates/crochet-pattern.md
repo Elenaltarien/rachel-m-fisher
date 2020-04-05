@@ -1,8 +1,8 @@
 ---
 layout: post
 title: 
-summary:
-tags: crochet
+summary: Type summary here
+tags: [crochet, DIY]
 ---
 
 **Supply List:**
