@@ -1,11 +1,10 @@
 #Site settings
 title: Rachel M Fisher
-email: fisher.rachel.m@gmail.com
+email: fisher.rachel.m@outlook.com
 author: Rachel M Fisher
 description:
 baseurl: ""
-url: https://www.rachelmfisher.com
-
+url: http://elenaltarien.github.io/rachel-m-fisher
 
 # Build settings
 permalink: :title/
